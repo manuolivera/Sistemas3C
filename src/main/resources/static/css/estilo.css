@@ -1,0 +1,134 @@
+:root {
+    --width-cargo: 50%
+    --width-projeto: 90%
+}
+
+.container-principal{
+    margin-top: 24px;
+}
+
+.card{
+    margin-bottom: 16px;
+}
+
+footer{
+    color: #df167b;
+    background-color: #fad1de;
+    text-align: center;
+    padding: 32px;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container-header-projeto{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 32px;
+    color: #df167b;
+    background-color: #fad1de;
+    border-radius: 15px;
+    text-align: center;
+    width:var(--width-projeto)
+}
+
+.container-header-cargo{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 32px;
+    color: #df167b;
+    background-color: #fad1de;
+    border-radius: 15px;
+    text-align: center;
+    width:var(--width-cargo)
+}
+.container-header-funcionarios{
+     margin-top: 24px;
+     margin-bottom: 24px;
+     padding: 32px;
+     color: #df167b;
+     background-color: #fad1de;
+     border-radius: 15px;
+     text-align: center;
+ }
+
+.container-funcionario{
+    border: 1px solid #df167b;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.container-cargo{
+    border: 1px solid #df167b;
+    border-radius: 15px;
+    padding: 16px;
+    width:var(--width-cargo);
+}
+
+.td-controle{
+    width: 60px;
+}
+
+.container-btn-novo{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.container-cargo-btn-novo{
+    width: var(--width-cargo);
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.container-projeto-btn-novo{
+    width: var(--width-projeto);
+    text-align: right;
+    margin-bottom: 8px;
+
+}
+
+.container-header-funcionario{
+     margin-top: 24px;
+     margin-bottom: 24px;
+     padding: 32px;
+     color: #df167b;
+     background-color: #fad1de;
+     border-radius: 15px;
+     text-align: center;
+     width:60%;
+ }
+
+.container-form-funcionario{
+    border: 1px solid #df167b;
+    border-radius: 15px;
+    padding: 16px;
+    width: 60%;
+}
+
+.container-form-cargo{
+    border: 1px solid #df167b;
+    border-radius: 15px;
+    padding: 16px;
+    width: var(--width-cargo);
+}
+
+.btn-form{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.modal-header-color{
+    background: #fad1de;
+    color: white;
+    font-weight: bold;
+}
+
+.select-multiple{
+    height: 150px !important;
+}
